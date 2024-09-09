@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node index.js",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "stun": "^2.1.0",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4"
+  }
+}
